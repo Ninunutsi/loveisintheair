@@ -1,0 +1,62 @@
+@import url(./fonts.css);
+
+.orange-divs-solutions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: 'GlacialBold', sans-serif;
+    width: 1181px;
+    margin: 190px auto 140px auto;
+}
+
+.main-orange-div{
+    width: 426px;
+    height: 547px;
+    background: #FFA723 0% 0% no-repeat padding-box;
+    box-shadow: 9px 15px 50px #0000004A, -77px -48px 0px 1px rgba(255,167,35);
+}
+
+.orange-div-texts{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.orange-div-heading{
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 30px;
+    color: #1C1C1C;
+    letter-spacing: -0.9px;
+}
+
+.orange-div-para{
+    color: #8B8B8B;
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'MuliRegular', sans-serif;
+}
+
+.orange-div-texts ul li{
+    list-style: none;
+    color: #383838;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 37px;
+}
+
+.orange-div-texts ul li::before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f058';
+    margin-right: 20px;
+    color: #EE3364;
+    font-size: 20px;
+}
+
+.orange-div-texts ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+}

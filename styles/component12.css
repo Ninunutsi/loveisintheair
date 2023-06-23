@@ -1,0 +1,107 @@
+@import url(./fonts.css);
+
+.austronaut-form{
+    font-family: 'GlacialBold', sans-serif;
+    background-color: #F2F2F2;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 99px;
+    position: relative;
+}
+
+.cosmo{
+    animation: float 3s ease-in infinite alternate-reverse;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.form-div{
+    width: 810px;
+}
+
+.form-div-heading{
+    letter-spacing: -3px;
+    color: #2B2B2B;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.red-span{
+    color: #EE3364;
+    font-size: 50px;
+}
+
+.form-div-para{
+    font-family: 'MuliRegular', sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    color: #2E2E2E;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-family: 'MuliRegular', sans-serif;
+}
+
+
+.select{
+    background: #CACACA 0% 0% no-repeat padding-box;
+    width: 350px;
+    height: 53px;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 20px;
+    border: none;
+}
+
+.input{
+    width: 350px;
+    border: none;
+    background: #CACACA 0% 0% no-repeat padding-box;
+    height: 53px;
+    padding-left: 30px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.hover:hover{
+    border: 2px solid #EE3364;
+    background-color: white;
+    transition: 1s ease-in;
+}
+
+.rocks{
+    position: absolute;
+}
+
+.rocks:first-child{
+    top: 149px;
+    left: 49px;
+}
+
+.rocks:nth-child(2){
+    right: 0;
+    top: 416px;
+}
+
+.form-btn{
+    background-color: #EE3364;
+    color: white;
+    font-family: 'MuliBold';
+    text-align: center;
+}

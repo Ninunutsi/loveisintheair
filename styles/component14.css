@@ -1,0 +1,49 @@
+@import url(./fonts.css);
+
+.footer{
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.footer-para{
+    color: #8D8D8D;
+    font-family: 'MuliRegular', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 786px;
+    font-size: 17px;
+    margin: 22px 0 50px 0;
+    line-height: 27px;
+}
+
+.social-logos{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 46px;
+}
+
+.social-logos .fa-brands{
+    color: #EE3364;
+    font-size: 20px;
+}
+
+.footer-footer{
+    background: #171717 0% 0% no-repeat padding-box;
+    width: 100%;
+    padding: 24px 0 36px 0;
+    color: #A0A8B7;
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'MuliRegular', sans-serif;
+}
+
+.span-white{
+    color: white;
+}

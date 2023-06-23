@@ -1,0 +1,95 @@
+@import url(./fonts.css);
+  
+  .skills-journey{
+      background: #EDF7FF 0% 0% no-repeat padding-box;
+      height: 568px;
+      padding: 110px 357px 100px 380px;
+      display: flex;
+      gap: 80px;
+      align-items: flex-start;
+  }
+
+  .journey{
+      width: 50%;
+  }
+
+  .skills{
+      width: 50%;
+  }
+
+  .journey-skills-heading{
+      font-size: 37px;
+      line-height: 42px;
+      font-family: 'GlacialBold', sans-serif;
+      color: #000000;
+      margin-bottom: 38px;
+      padding-right: 50px;
+  }
+
+  .journey-para{
+      font-size: 17px;
+      line-height: 29px;
+      color: #484848;
+      margin-bottom: 20px;
+  }
+
+  .underline{
+      border-bottom: 1px dashed #484848;
+  }
+
+  .ceo-info{
+      display: flex;
+      align-items: center;
+      gap: 27px;
+  }
+
+  .ranges{
+      display: flex;
+      gap: 28px;
+      flex-direction: column;
+  }
+
+  progress {
+    -webkit-appearance: none;
+    width: 100%;
+  }
+
+  ::-webkit-progress-bar {
+    width: 100%;
+      height: 10px;
+      background: #FFFFFF;
+  }
+
+  ::-webkit-progress-value {
+    background-color: #EE3364;
+  }
+
+  ::-moz-progress-bar {
+    background-color: #EE3364;
+  }
+
+  .range{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+  }
+
+  .label{
+    color: #373737;
+    font-family: 'GlacialRegular', sans-serif;
+  }
+
+  .name h2{
+    color: #2C2B2A;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'GlacialBold', sans-serif;
+  }
+
+  .name span{
+    color: #7E7E7E;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'GlacialRegular', sans-serif;
+    font-weight: lighter;
+  }

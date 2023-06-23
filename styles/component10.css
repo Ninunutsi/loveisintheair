@@ -1,0 +1,105 @@
+@import url(./fonts.css);
+
+.services-package{
+    font-family: 'GlacialBold', sans-serif;
+    padding: 137px 0 139px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plans{
+    width: 1170px;
+}
+
+.plan{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 4px solid #EEEEEE;
+    padding: 69px 95px 80px 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .basic-plan{
+        letter-spacing: 0.15px;
+    color: #0B0B0B;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    }
+
+.month{
+    font-size: 13px;
+    font-family: 'MuliRegular', sans-serif;
+    color: #0B0B0B;
+}
+
+.price{
+    align-self: flex-start;
+    font-size: 80px;
+    letter-spacing: 0.4px;
+    color: #0B0B0B;
+    font-weight: bold;
+    margin-bottom: 47px;
+}
+
+.dollar i{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.18px;
+    margin-right: 10px;
+}
+
+.plan ul li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: #8799A3;
+    font-family: 'Cambay', sans-serif;
+}
+
+.plan ul{
+    margin-bottom: 30px;
+}
+
+.black{
+    background-color: #0B0B0B;
+    border: 2px solid transparent;
+    letter-spacing: 0.9px;
+}
+
+.plan:hover{
+    background-color: #EE3364;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.plan:hover .basic-plan{
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.plan:hover .month{
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.plan:hover .price{
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.plan:hover .list{
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.plan:hover .black{
+    border: 2px solid white;
+    color: #EEEEEE;
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}

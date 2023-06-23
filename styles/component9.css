@@ -1,0 +1,110 @@
+@import url(./fonts.css);
+
+.showcases{
+    font-family: 'GlacialBold', sans-serif;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 0;
+}
+
+.showcases-heading{
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+    margin-bottom: 54px;
+}
+
+.div-showcases{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-bottom: 140px;
+}
+
+.single-showcase{
+    width: 585px;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-showcase:first-child{
+    background-color: #545556;
+}
+
+.single-showcase:nth-child(2){
+    background-color: #d3d3d3;
+}
+
+.single-showcase:nth-child(3){
+    background-color: #575757;
+}
+
+.single-showcase:nth-child(4){
+    background-color: #383838;
+}
+
+.single-showcase:nth-child(5){
+    background-color: #343434;
+}
+
+.single-showcase:last-child{
+    background-color: #3d3d3d;
+}
+
+.single-showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 298px;
+    text-align: center;
+    display: none;
+}
+
+.single-showcase-heading{
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.24px;
+    margin-bottom: 20px;
+}
+
+.single-showcase-para-red{
+    color: #EE3364;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.05px;
+    margin-bottom: 20px;
+    font-family: 'GlacialRegular', sans-serif;
+}
+
+.single-showcase-para{
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-family: 'MuliRegular', sans-serif;
+}
+
+.fa-arrow-right{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.single-showcase:hover .single-showcase-content{
+    display: block;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

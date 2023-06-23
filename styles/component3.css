@@ -1,0 +1,34 @@
+@import url(./fonts.css);
+
+.main{
+    background-image: url("../assets/images/bg\ shape.png");
+    width: 1920px;
+    height: 100vh;
+}
+
+.main-heading{
+    color: #FFFFFF;
+    font-family: 'GlacialBold', sans-serif;
+    font-size: 80px;
+    padding-top: 30px;
+    line-height: 87px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.main-para{
+    color: #FFFFFF;
+    font-family: 'MuliRegular', sans-serif;
+    font-size: 20px;
+    padding: 29px 110px 58px 0;
+    letter-spacing: 0px;
+    line-height: 28px;
+}
+
+.vector-img{
+    background: transparent url('../assets/images/Vector\ Smart\ Object.svg') 0% 0% no-repeat padding-box;
+}
+
+.main-content{
+    padding-right: 145px;
+}

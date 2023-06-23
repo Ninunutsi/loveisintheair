@@ -1,0 +1,46 @@
+@import url(./fonts.css);
+
+.details-numbers{
+    width: 1920px;
+    height: 320px;
+    padding: 85px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    font-family: 'GlacialBold', sans-serif;
+}
+
+.details{
+    width: 320px;
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.icon{
+    background: #2D2C2C 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    width: 113px;
+    height: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i {
+    color: #FF434B;
+    font-size: 50px;
+}
+
+.nums-heading{
+    color: white;
+    font-size: 57px;
+}
+
+.nums-para{
+    font-size: 24px;
+    color: #CFCFCF;
+    font-family: 'GlacialRegular';
+}

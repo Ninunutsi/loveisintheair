@@ -1,0 +1,68 @@
+@import url(./fonts.css);
+
+.social-divs{
+    height: 574px;
+    font-family: 'GlacialBold', sans-serif
+}
+
+.social{
+    width: 20%;
+    height: 574px;
+}
+
+.social:first-child, .social:last-child{
+    background-color: #BBBBBB;
+}
+
+.social:nth-child(2), .social:nth-child(4){
+    background-color: #D0D0D0;
+}
+
+.social:nth-child(3){
+    background-color: #e8e8e8;
+}
+
+.social-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    visibility: hidden;
+}
+
+.social-name{
+    font-size: 35px;
+}
+
+.social-para{
+    font-family: 'MuliRegular', sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.09px;
+    margin-bottom: 30px;
+}
+
+.social-networks{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.fa-facebook{
+    color: #3b5998;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-twitter{
+    color: #55acee;
+}
+
+.social:hover .social-content{
+    visibility: visible;
+    border: 15px solid black;
+    background-color: #EE3364;
+    transition: 1s ease-in;
+}

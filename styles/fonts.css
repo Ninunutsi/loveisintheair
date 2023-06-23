@@ -1,0 +1,24 @@
+@font-face {
+    font-family: MuliBold;
+    src: url(../assets/fonts/muli/Muli-Bold.ttf);
+ }
+ 
+ @font-face {
+    font-family: MuliRegular;
+    src: url(../assets/fonts/muli/Muli.ttf);
+ }
+
+ @font-face {
+    font-family: MuliBoldItalic;
+    src: url(../assets/fonts/muli/Muli-BoldItalic.ttf);
+ }
+
+ @font-face {
+    font-family: GlacialBold;
+    src: url(../assets/fonts/glacial/GlacialIndifference-Bold.otf);
+ }
+
+ @font-face {
+    font-family: GlacialRegular;
+    src: url(../assets/fonts/glacial/GlacialIndifference-Regular.otf);
+ }

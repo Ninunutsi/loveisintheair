@@ -1,0 +1,82 @@
+@import url(./fonts.css);
+
+.header-contact-info{
+    background: #00000080 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 80px #00000026;
+    opacity: 1;
+    height: 48px;
+    width: 1920px;
+    background-image: url(../assets/images/bg\ copy.png);
+}
+
+.contact-info{
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.4;
+    font-family: 'MuliRegular';
+    font-size: 15px;
+}
+
+.contact-info:first-child::before{
+    content: url(../assets/images/email.png);
+    margin-right: 23px;
+    width: 18px;
+    height: 14px;
+}
+
+.contact-info:nth-child(2)::before{
+    content: url(../assets/images/phone.png);
+    margin-right: 15px;
+    width: 18px;
+    height: 14px;
+}
+
+.mail-phone{
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.social-icons i{
+    height: 20px;
+    display: inline-block;
+}
+
+.social-icons a:not(:first-child){
+    margin-left: 22px;
+}
+
+.social-icons-icons a i{
+    opacity: 0.4;
+}
+
+.social-icons a{
+    display: inline-block;
+    color: #88678f;
+}
+
+.fa-brands{
+    display: inline-block;
+}
+
+.social-icons a:first-child{
+    width: 8px;
+    height: 14px;
+}
+
+.social-icons a:nth-child(2){
+    color: #FFFFFF;
+    width: 15px;
+    height: 12px;
+}
+
+.social-icons a:nth-child(3){
+    width: 21px;
+    height: 14px;
+}
+
+.social-icons a:last-child{
+    width: 15px;
+    height: 14px;
+}
+

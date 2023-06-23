@@ -1,0 +1,96 @@
+@import url(./fonts.css);
+
+.services{
+    margin: 133px 375px 145px 375px;
+}
+
+.services-heading{
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 0 250px 0 272px;
+    color: #2E2E2E;
+    font-family: 'GlacialBold', sans-serif;
+    margin-bottom: 50px;
+}
+
+.lighter-services-heading{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'GlacialRegular', sans-serif;
+}
+
+.single-service{
+    width: 362px;
+    height: 292px;
+    background: #EDF7FF 0% 0% no-repeat padding-box;
+    padding: 44px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.single-service-img{
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.white{
+    filter: invert(1)
+}
+
+.dias{
+    padding:25px 25px 22px 22px;
+}
+
+.piggy{
+    padding: 23px 22px 20px 21px;
+}
+
+.res{
+    padding: 28px 21px 26px 22px;
+}
+
+.single-service-heading{
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #2E2E2E;
+    font-family: 'GlacialBold', sans-serif;
+    font-size: 25px;
+    margin-bottom: 29px;
+}
+
+.single-service-para{
+    color: #838383;
+    font-family: 'MuliRegular', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.single-service:hover{
+    background-color: white;
+    box-shadow: 8px 14px 43px #7979797A;
+    border: 3px solid #EE3364;
+    transition: 1s ease-in;
+}
+
+.single-service:hover .single-service-img{
+    background-color: #EE3364;
+    transition: 1s ease-in-out;
+}
+
+.single-service:hover .single-service-img img{
+    filter: invert(100%);
+    transition: 1s ease-in-out;
+}
+
+.single-service:hover .single-service-img .white{
+    filter: initial;
+}
+
+.services-containers{
+    margin-bottom: 86px;
+}
